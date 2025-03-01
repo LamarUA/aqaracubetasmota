@@ -37,7 +37,7 @@ Source: https://github.com/kirovilya/ioBroker.zigbee
 
 2. **Upload to Tasmota**:
    - Access the Tasmota web interface.
-   - Navigate to **Configuration → Edit File System → Upload File**.
+   - Navigate to **Tools → Manage File System → Upload**.
    - Upload the `aqara_cube.be` file.
 
 3. **Prerequisites**:
