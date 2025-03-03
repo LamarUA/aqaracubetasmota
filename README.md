@@ -68,7 +68,7 @@ Rule1
   ON AqaraCube#action=flip90 DO Dimmer +10 ENDON
   ON AqaraCube#action=rotate_clockwise DO Dimmer +5 ENDON
   ON AqaraCube#action=rotate_counterclockwise DO Dimmer -5 ENDON
-  ON AqaraCube#side_up=1 DO Backlog Power1 ON; Power2 OFF ENDON
+  ON AqaraCube#side=1 DO Backlog Power1 ON; Power2 OFF ENDON
 ```
 
 Enable the rule:
