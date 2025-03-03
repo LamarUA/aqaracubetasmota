@@ -39,12 +39,16 @@ Source: https://github.com/kirovilya/ioBroker.zigbee
    - Access the Tasmota web interface.
    - Navigate to **Tools → Manage File System → Upload**.
    - Upload the `aqara_cube.be` file.
+  
+3. **Startup**:
+   - To load the driver on startup select Create and edit new file named `autoexec.be` with a line `load("aqara_cube.be")`.
+   - Alternatively you can rename `aqara_cube.be` to `autoexec.be`
 
-3. **Prerequisites**:
+4. **Prerequisites**:
    - Ensure your Tasmota device supports Zigbee (e.g., Tasmota-Zigbee firmware).
    - Pair your Aqara Cube T1 Pro with the Zigbee coordinator.
 
-4. **Restart Tasmota**:
+5. **Restart Tasmota**:
    - Run `Restart 1` in the console or restart via the web interface.
 
 ## Usage
